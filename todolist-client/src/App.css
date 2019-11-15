@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/* #container-edit-dialog,
+#edit-dialog {
+  display: none;
+} */
+
+/* #container-edit-dialog:target { */
+#container-edit-dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+
+  display: none;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #00000080;
+}
+
+/* #container-edit-dialog:target > div { */
+#edit-dialog {
+  max-width: 600px;
+
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+  background-color: #cecece;
+}
+
+/* .close-target::before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  cursor: default;
+} */
+
+/* .close-target::after {
+  right: -1rem;
+  top: -1rem;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  content: "×";
+  cursor: pointer;
+} */
